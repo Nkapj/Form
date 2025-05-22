@@ -1,0 +1,148 @@
+
+body{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: url('./assets/pexels-pixabay-247599.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow: hidden;
+
+  
+
+}
+
+.root{
+  margin: -25px 20px;
+  width: 400px;
+  height: auto;
+  padding: 30px;
+  box-shadow: 10px 0px 20px rgba(1, 0, 0, 0.5);
+  background-color: rgba(255,255, 255, 0.3);
+  flex-shrink: 0;
+  
+}
+
+.root div {
+  flex-direction: column;
+  display: flex;
+  
+}
+
+
+input {
+  font-size: 15px;  
+  width: 70%;
+  padding: 5px 3px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  border-width: 2px;
+  border-radius: 20px;
+}
+
+label{
+
+  font-size: 16px; 
+  color: rgba(1, 0, 0, 0.701);
+  font-family: 'Times New Roman', Times, serif;
+}
+
+input.vert {
+  border-color: green;
+}
+
+input.noir {
+  border-color: rgba(1, 0, 0, 0.2);
+}
+
+input.rouge {
+  border-color: red;
+
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.result-container {
+  margin: 10px;
+  width: 100%;
+  min-width: 280px;
+  padding: 30px;
+  box-shadow: 10px 0px 20px rgba(1, 0, 0, 0.5);
+  background-color: rgba(255,255, 255, 0.2);
+  color: rgba(4, 4, 4, 0.701);
+  font-size: 20px;
+  font-weight: bold;
+  height: 400px;
+
+}
+
+
+.button-container form {
+
+  display: flex;
+  justify-content: center;
+  
+}
+
+button {
+
+  border-radius: 10px;
+  font-size: 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 5px cyan, 0 0 25px green;
+  padding: 10px 20px;
+  background: transparent;
+  border-color: cyan;
+
+}
+
+button:hover {
+  box-shadow: 0 0 5px cyan, 0 0 25px cyan,0 0 50px cyan, 0 0 100px cyan
+
+}
+
+
+
+
+.errorMessage {
+  color: red;
+  margin-top: -10px;
+  margin-bottom: 20px;
+  font-size: 12px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+h1 {
+  padding-left: 150px;
+  color: rgba(4, 4, 4, 0.701);
+}
+
+.data-list {
+
+  list-style: none;
+  padding: 20px;
+  margin: 10px;
+  width: 100%;
+  max-width: 400px;
+
+}
+
+.data-list li {
+  margin: 10px 0;
+  padding: 5px 0;
+}
